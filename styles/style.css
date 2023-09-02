@@ -354,5 +354,44 @@ line-height: normal;
 
 }
 
+footer{
+    width: 1340px;
+    height: 97px;
+    margin-top: 185px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
+.adress_footer{
+    justify-self: start;
+}
 
+.footer__menu-list{
+    list-style: none;
+    
+    text-underline-offset: 4px;
+    color: #000;
+text-align: center;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer__menu-link_active{
+    text-decoration: none;
+}
+
+.footer__social-list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.footer__social-link{
+    display: block;
+    width: 48px;
+    height: 48px;
+}
