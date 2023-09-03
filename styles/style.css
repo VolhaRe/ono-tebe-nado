@@ -3,15 +3,12 @@ body {
     height: 2844px;
 
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 header {
     width: 1340px;
     height: 109px;
-    margin: 92px;
+    margin: 92px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #fff;
@@ -34,7 +31,7 @@ header {
     text-underline-offset: 4px;
 }
 
-.header__link a {
+.header__link {
     text-decoration: none;
 }
 
@@ -187,7 +184,7 @@ header {
 .lots {
     width: 1340px;
     height: 579px;
-    margin: 180px;
+    margin: 180px 50px;
     margin-bottom: 177px;
     display: flex;
     flex-wrap: wrap;
@@ -218,17 +215,17 @@ header {
 }
 
 .card_type_film {
-    background-image: url(/ono-tebe-nado/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
 }
 
 .card_type_book {
-    background-image: url(/ono-tebe-nado/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
 }
 
 .card_type_picture {
-    background-image: url(/ono-tebe-nado/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
 }
 
@@ -285,9 +282,9 @@ header {
 
 .about {
     width: 1340px;
-    height: 487px;
+    height: 490px;
     display: grid;
-
+    margin: 0 50px;
     grid-template-columns: 430px auto;
     column-gap: 25px;
 }
@@ -324,7 +321,7 @@ header {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin-bottom: 101px;
+    margin-bottom: 98px;
 }
 
 .about__text {
@@ -334,12 +331,17 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 5px;
+   
+}
+.about__text-second-part{
+    margin-top: 26px;
 }
 
 footer {
     width: 1340px;
     height: 97px;
-    margin-top: 185px;
+    margin: 181px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
