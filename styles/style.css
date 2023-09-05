@@ -9,17 +9,19 @@ body {
 
 header {
     width: 1340px;
-    margin: 103px 50px 94px 52px;
+    margin: 92px 50px 92px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #fff;
     align-items: center;
+    padding: 27px 0px 2px 2px;
 }
 
 .header__menu {
     width: 388px;
     display: flex;
     align-items: center;
+    
 }
 
 .header__links-list {
@@ -28,9 +30,11 @@ header {
     gap: 32px;
     font-size: 18px;
     text-underline-offset: 4px;
+   
 }
 
 .header__link {
+    
     text-decoration: none;  
 
 }
@@ -44,6 +48,7 @@ header {
     height: 105px;
     justify-self: center;
     margin-bottom: 2px;
+    margin-right: 1px;
 }
 
 .header__logo-image {
@@ -52,8 +57,7 @@ header {
 }
 
 .header__links-list-item_no-bullit {
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .address {
@@ -66,7 +70,8 @@ header {
     line-height: 24.3px;
     text-underline-offset: 4px;
 }
-.header__address {
+
+.contacts__address {
     width: 240px;
     display: flex;
     flex-wrap: wrap;
@@ -80,14 +85,13 @@ header {
 }
 
 .cover {
-
     width: 1440px; 
-    background-image: url(/ono-tebe-nado/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 49px;
-    
+    padding-bottom: 50px; 
+     
 }
 
 .overlay {
@@ -119,6 +123,7 @@ header {
     text-align: left;
     position: relative;
     z-index: 1;
+   
 }
 
 .aligned-text_center {
@@ -128,6 +133,7 @@ header {
     margin-bottom: 4px;
     position: relative;
     z-index: 1;
+    
 }
 
 .aligned-text_right {
@@ -154,9 +160,7 @@ header {
     gap: 76px;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 128px;
-    
-    
+    margin-top: 128px;  
 }
 
 .cover__description-text {
@@ -168,14 +172,10 @@ header {
     font-weight: 400;
     line-height: 28px; /* 127.273% */
     text-transform: uppercase;
-    word-spacing: 18px;
-    
-    
-    
+    word-spacing: 18px;   
 }
 
 .bet-button {
-    
     border: 1px solid #fff;
     padding: 12px 32px;
     color: #fff;
@@ -186,17 +186,16 @@ header {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    background: none;
-   
+    background: none; 
 }
 
 .lots {
     width: 1340px;
-    margin: 181px 50px;
-    margin-bottom: 180px;
+    margin: 180px 50px 181px 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 0px 4px 0 0px;
 }
 
 .lots__heading {
@@ -210,17 +209,18 @@ header {
     margin-left: 40px;
     margin-bottom: 17px;
 }
+
 .lots__card-list {
     list-style: none;
     display: flex;
     gap: 25px;
 }
 
-
 .lots__card-list-item {
     min-width: 430px;
     min-height: 450px;
 }
+
 .card-link {
     display: block;
     width: 100%;
@@ -248,7 +248,6 @@ header {
     flex-direction: column;
     justify-content: space-between;
     background-size: cover;
-    
 }
 
 .card__title {
@@ -263,8 +262,6 @@ header {
     position: relative;
     z-index: 2;
     margin: 50px 40px 0 40px;
-
-    
 }
 
 .card__text {
@@ -316,12 +313,10 @@ header {
 
 .about__column-logo-img {
     justify-self: center;
-    margin-top: 3px;
 }
 
 .about__column-title-text {
-    align-self: end;
-    
+    align-self: end;  
 }
 
 .about__title {
@@ -333,7 +328,7 @@ header {
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 100px;
-    margin-top: 103px;
+    margin-top: 100px;
 }
 
 .about__text {
@@ -343,16 +338,16 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 5px;
+    margin-bottom: 26px;
 }
 
-.about__text-second-part {
-    margin-top: 26px;
+.about__text:last-child {
+    margin-bottom: 0;
 }
 
 footer {
     width: 1340px;
-    margin: 178px 49px;
+    margin: 178px 50px 90px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
