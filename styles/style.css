@@ -32,9 +32,10 @@ header {
 
 .header__link {
     text-decoration: none;  
+
 }
 
-.header__link_active{
+.header__link_active {
     text-decoration: underline;
 }
 
@@ -79,6 +80,7 @@ header {
 }
 
 .cover {
+
     width: 1440px; 
     background-image: url(/ono-tebe-nado/images/cover.jpg);
     background-size: cover;
@@ -215,7 +217,7 @@ header {
 }
 
 
-.lots__card-list-item{
+.lots__card-list-item {
     min-width: 430px;
     min-height: 450px;
 }
