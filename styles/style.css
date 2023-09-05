@@ -21,6 +21,7 @@ header {
     width: 388px;
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
     
 }
 
@@ -36,7 +37,6 @@ header {
 .header__link {
     
     text-decoration: none;  
-
 }
 
 .header__link_active {
@@ -90,8 +90,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding-bottom: 50px; 
-     
+    padding-bottom: 50px;     
 }
 
 .overlay {
