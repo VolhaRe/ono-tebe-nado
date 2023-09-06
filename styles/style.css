@@ -14,7 +14,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     background-color: #fff;
     align-items: center;
-    padding: 27px 0px 2px 2px;
+    padding: 0px 0px 2px 2px;
 }
 
 .header__menu {
